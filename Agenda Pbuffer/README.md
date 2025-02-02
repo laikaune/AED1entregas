@@ -1,6 +1,7 @@
 # Laila Kauane - 23103141
 
 📒 Agenda com pBuffer em C
+
 📌 Descrição
 Este projeto implementa uma agenda simples em C, onde todos os dados são armazenados em um único bloco de memória (pBuffer). O desafio foi utilizar apenas ponteiros para manipular os dados, sem declarar variáveis tradicionais ou structs.
 
