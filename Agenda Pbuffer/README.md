@@ -11,6 +11,8 @@ Este projeto implementa uma agenda simples em C, onde todos os dados são armaze
 3️⃣ Buscar Pessoa → Exibe os dados de uma pessoa pelo nome.
 4️⃣ Listar Todos → Mostra todas as pessoas cadastradas.
 5️⃣ Sair → Libera a memória e encerra o programa.
+
+
 🗂 Organização do pBuffer
 O pBuffer tem um tamanho fixo de 1024 bytes, onde são armazenados:
 
@@ -18,6 +20,7 @@ O pBuffer tem um tamanho fixo de 1024 bytes, onde são armazenados:
 📧 Email → 50 bytes
 🔢 Idade → Inteiro armazenado após nome e email
 📌 Opção do Menu → Armazenada nos últimos bytes
+
 🖥 Como Compilar e Executar
 Para compilar:
 gcc -o AgendaPbufferLaila AgendaPbufferLaila.c
