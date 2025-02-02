@@ -99,7 +99,6 @@ void AdicionarPessoa(void *pBuffer) {
 }
 
 // Função para remover uma pessoa do pBuffer
-// Essa implementação simples utiliza o campo nome para identificar a pessoa a ser removida
 void RemoverPessoa(void *pBuffer) {
     // Define os ponteiros para nome, email e idade
     char *pNome = (char *)(pBuffer);
