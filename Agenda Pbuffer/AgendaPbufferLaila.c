@@ -102,8 +102,6 @@ void AdicionarPessoa(void *pBuffer) {
 // Essa implementação simples utiliza o campo nome para identificar a pessoa a ser removida
 void RemoverPessoa(void *pBuffer) {
     // Define os ponteiros para nome, email e idade
-    // Como nessa implementação não estamos usando lista encadeada,
-    // presume-se que os dados de uma única pessoa estão armazenados no início do pBuffer
     char *pNome = (char *)(pBuffer);
     char *pEmail = (char *)(pBuffer + TAM_NOME);
     int *pIdade = (int *)(pBuffer + TAM_NOME + TAM_EMAIL);
@@ -127,7 +125,6 @@ void RemoverPessoa(void *pBuffer) {
 }
 
 // Função para buscar uma pessoa pelo nome no pBuffer
-// Novamente, essa implementação simples considera que há apenas uma pessoa armazenada
 void BuscarPessoa(void *pBuffer) {
     // Define os ponteiros para acessar os dados (nome, email e idade)
     char *pNome = (char *)(pBuffer);
@@ -151,7 +148,6 @@ void BuscarPessoa(void *pBuffer) {
 }
 
 // Função para listar os dados de todas as pessoas cadastradas
-// Nessa implementação, há apenas uma pessoa armazenada no pBuffer
 void ListarTodos(void *pBuffer) {
     // Define os ponteiros para acessar os dados da pessoa
     char *pNome = (char *)(pBuffer);
@@ -171,8 +167,6 @@ void ListarTodos(void *pBuffer) {
 
 // Função para sair do programa
 void Sair(void *pBuffer) {
-    // Apenas exibe uma mensagem de saída
-    // pBuffer não é utilizado nessa função, mas está presente para manter a consistência da assinatura
     printf("Saindo...\n");
 }
 
