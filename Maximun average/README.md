@@ -16,31 +16,38 @@ No terminal, execute o seguinte comando para compilar o programa:
 
 ```sh
 gcc MaximumAverageLaila.c -o MaximumAverageLaila -lm
+```
 
 ## **2. Executar**
 
+
 Após a compilação, rode o programa com:
+```
 ./MaximumAverageLaila
+```
 
 📥 Entrada e 📤 Saída
 Exemplo de Entrada
 O código usa uma matriz com as turmas no formato [aprovados, total] e um número de alunos extras. 
 Exemplo:
+```
 int dados[][2] = {{1,2}, {3,5}, {2,2}};
 int tamanho = 3;
 int alunosExtras = 2;
 Exemplo de Saída
 Média final: 0.78333
-
+```
 Isso significa que, distribuindo os alunos extras da melhor maneira, a média final da taxa de aprovação será aproximadamente 78,33%.
 
 🏗️ Estrutura do Código
 
+```
 struct Turma: Guarda os dados de cada turma.
 calcularGanho(): Calcula o quanto a taxa de aprovação de uma turma melhora ao adicionar um aluno extra.
 ajustarHeap() e construirHeap(): Mantêm a heap máxima organizada.
 maximoMediaAprovacao(): Principal função que distribui os alunos extras da melhor maneira.
 main(): Testa o programa com um conjunto de dados e imprime o resultado.
+```
 
 ⚡ Conclusão
 
