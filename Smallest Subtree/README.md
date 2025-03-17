@@ -1,3 +1,5 @@
+Laila Kauane - 23103141
+
 # Menor Subárvore com Nós Mais Profundos
 
 Este projeto implementa uma função para encontrar a menor subárvore que contém todos os nós mais profundos de uma árvore binária.
