@@ -1,5 +1,5 @@
 # Maximização do Lucro com Trabalhadores e Trabalhos
-
+# Laila Kauane, 23103141
 Este programa calcula o lucro máximo que um conjunto de trabalhadores pode obter ao realizar diferentes tipos de trabalhos. Cada trabalho tem uma dificuldade e um lucro associado, e cada trabalhador possui uma habilidade que define a dificuldade máxima que ele pode realizar.
 Como Executar
 
